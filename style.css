@@ -1,0 +1,41 @@
+.holdingcontainer{
+      max-width: 100%;
+      display: flex;
+      background: #ffc728;
+      padding: 50px;
+      box-sizing: border-box;
+      flex-direction: row;
+    }
+
+    .internalcontainerL{
+      flex: 1;
+      background: red;
+      padding: 30px;
+      font-size: 12px;
+      font-family: 'Roboto', sans-serif;
+      margin: 3px;
+    }
+
+    .internalcontainerM{
+      flex: 1;
+      background: pink;
+      padding: 30px;
+      font-size: 12px;
+      font-family: 'Roboto', sans-serif;
+      margin: 3px;
+    }
+
+    .internalcontainerR{
+      flex: 1;
+      background: cyan;
+      padding: 30px;
+      font-size: 12px;
+      font-family: 'Roboto', sans-serif;
+      margin: 3px;
+    }
+
+    @media screen and (max-width: 768px){
+      .holdingcontainer{
+        flex-direction: row;
+      }
+    }
